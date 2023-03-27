@@ -1,7 +1,5 @@
-# InBank-Internship
-
-# Software Engineer Intern - assignment
-Task:
+## Software Engineer Intern - assignment
+### Task:
 Please design a decision engine which takes in personal code, loan amount, loan period in
 months and returns a decision (negative or positive) and the amount.
 The idea of the decision engine is to determine what would be the maximum sum, regardless of
@@ -22,7 +20,7 @@ For example :
 If a person has debt then we do not approve any amount. If a person has no debt then we take
 the identifier and use it for calculating person`s credit score taking into account the requested
 input.
-Constraints:
+### Constraints:
 Minimum input and output sum can be 2000 €
 Maximum input and output sum can be 10000 €
 Minimum loan period can be 12 months
@@ -35,3 +33,14 @@ credit score = (credit modifier / loan amount) * loan period
 As a result please provide working code with a single api endpoint and front-end application
 which uses the functionality. Also whenever possible share your thought process. If you have any
 additional questions, then please feel free to ask them.
+
+
+## How to run the project?
+To run this Spring Boot project, you can use the following steps:
+
+1.  Make sure you have Java 17 installed on your machine.
+2.  Download or clone the project source code from the Git repository.
+3.  Open a command prompt or terminal and navigate to the project directory.
+4.  Download all the dependencies using ````mvn dependency:copy-dependencies````
+5.  Build the project with ````mvn build````
+6.  Run the project and open ````http://127.0.0.1:8080/loan-decider.html````
