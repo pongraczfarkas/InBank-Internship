@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Decision Engine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Decision Engine</h1>
+<form id="decision-form">
+    <label for="personal-code">Personal Code:</label>
+    <input type="text" id="personal-code" name="personal-code" required><br><br>
+    <label for="loan-amount">Loan Amount (EUR):</label>
+    <input type="number" id="loan-amount" name="loan-amount" min="2000" max="10000" step="1000" required><br><br>
+    <label for="loan-period">Loan Period (Months):</label>
+    <input type="number" id="loan-period" name="loan-period" min="12" max="60" step="12" required><br><br>
+    <button type="submit">Calculate Decision</button>
+</form>
+<div id="result"></div>
+<script src="script.js"></script>
+</body>
+</html>
+
+

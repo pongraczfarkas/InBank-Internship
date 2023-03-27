@@ -1,0 +1,94 @@
+/* Heading style */
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: #333;
+    margin-top: 2rem;
+}
+
+/* Form container style */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Label style */
+label {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Input style */
+input[type="text"],
+input[type="number"] {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    color: #333;
+    background-color: #f5f5f5;
+    transition: background-color 0.2s ease-in-out;
+}
+
+/* Input hover style */
+input[type="text"]:hover,
+input[type="number"]:hover {
+    background-color: #ddd;
+}
+
+/* Button style */
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+/* Button hover style */
+button:hover {
+    background-color: #0062cc;
+}
+
+/* Result container style */
+#result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* Result text style */
+#result p {
+    margin-bottom: 1rem;
+}
+
+/* Result value style */
+#result span {
+    font-weight: bold;
+}
